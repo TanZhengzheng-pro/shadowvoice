@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: shadowvoice-backend
+Version: 0.1.0
+Summary: Minimal pronunciation feedback backend for ShadowVoice.
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi<1.0,>=0.115
+Requires-Dist: numpy<3.0,>=1.26
+Requires-Dist: uvicorn<1.0,>=0.30
+Provides-Extra: dev
+Requires-Dist: pytest<9.0,>=8.0; extra == "dev"
+
+# ShadowVoice Backend
+
+## Install
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e ".[dev]"
+```
+
+## Run
+```bash
+python -m app.main
+```
+
+The API starts on `http://127.0.0.1:8000`.
+
+## Test
+```bash
+pytest
+```

@@ -3,6 +3,8 @@ dist/
 .env
 __pycache__/
 *.pyc
+.venv/
+.pytest_cache/
 .vscode/
 .DS_Store
 .aws-sam/

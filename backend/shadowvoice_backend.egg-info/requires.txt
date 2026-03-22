@@ -1,0 +1,6 @@
+fastapi<1.0,>=0.115
+numpy<3.0,>=1.26
+uvicorn<1.0,>=0.30
+
+[dev]
+pytest<9.0,>=8.0
