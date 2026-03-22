@@ -11,13 +11,21 @@ The current backend compares WAV audio with DTW + log-mel similarity and returns
 ## Docs
 - `docs/pronunciation-spec.md`
 - `backend/README.md`
+- `ios/README.md`
 
-## Run
+## Backend Run
 1. `cd backend`
 2. `python3 -m venv .venv`
 3. `source .venv/bin/activate`
 4. `pip install -e ".[dev]"`
 5. `python -m app.main`
+
+## iOS Client
+- Xcode project: `ios/ShadowVoiceIOS/ShadowVoiceIOS.xcodeproj`
+- Shared tested client module: `ios/ShadowVoiceClientCore`
+- Start the backend first, then open the iOS project in Xcode and run on Simulator or device.
+- Simulator can usually use `http://127.0.0.1:8000`.
+- A physical iPhone should use your Mac's LAN IP, for example `http://192.168.1.20:8000`.
 
 ## API
 `POST /analyze`
@@ -64,3 +72,7 @@ Example response:
   ]
 }
 ```
+
+## Validation
+- Backend tests: `cd backend && .venv/bin/python -m pytest`
+- Shared iOS client tests: `cd ios/ShadowVoiceClientCore && swift test`

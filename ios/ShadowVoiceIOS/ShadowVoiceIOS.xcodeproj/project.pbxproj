@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA0000000000000000000001 /* ShadowVoiceIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000011 /* ShadowVoiceIOSApp.swift */; };
+		AA0000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000012 /* ContentView.swift */; };
+		AA0000000000000000000003 /* AnalyzeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000013 /* AnalyzeViewModel.swift */; };
+		AA0000000000000000000004 /* ShadowVoiceAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000014 /* ShadowVoiceAPIClient.swift */; };
+		AA0000000000000000000005 /* AudioRecorderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000015 /* AudioRecorderController.swift */; };
+		AA0000000000000000000006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000016 /* Assets.xcassets */; };
+		AA0000000000000000000007 /* ShadowVoiceClientCore in Frameworks */ = {isa = PBXBuildFile; productRef = AA0000000000000000000082 /* ShadowVoiceClientCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA0000000000000000000011 /* ShadowVoiceIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowVoiceIOSApp.swift; sourceTree = "<group>"; };
+		AA0000000000000000000012 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA0000000000000000000013 /* AnalyzeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeViewModel.swift; sourceTree = "<group>"; };
+		AA0000000000000000000014 /* ShadowVoiceAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowVoiceAPIClient.swift; sourceTree = "<group>"; };
+		AA0000000000000000000015 /* AudioRecorderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderController.swift; sourceTree = "<group>"; };
+		AA0000000000000000000016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA0000000000000000000017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0000000000000000000018 /* ShadowVoiceIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowVoiceIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0000000000000000000031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000000000000000000007 /* ShadowVoiceClientCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0000000000000000000021 = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000022 /* ShadowVoiceIOS */,
+				AA0000000000000000000023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000022 /* ShadowVoiceIOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000011 /* ShadowVoiceIOSApp.swift */,
+				AA0000000000000000000012 /* ContentView.swift */,
+				AA0000000000000000000013 /* AnalyzeViewModel.swift */,
+				AA0000000000000000000014 /* ShadowVoiceAPIClient.swift */,
+				AA0000000000000000000015 /* AudioRecorderController.swift */,
+				AA0000000000000000000016 /* Assets.xcassets */,
+				AA0000000000000000000017 /* Info.plist */,
+			);
+			path = ShadowVoiceIOS;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000018 /* ShadowVoiceIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0000000000000000000041 /* ShadowVoiceIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000000000000000000061 /* Build configuration list for PBXNativeTarget "ShadowVoiceIOS" */;
+			buildPhases = (
+				AA0000000000000000000033 /* Sources */,
+				AA0000000000000000000031 /* Frameworks */,
+				AA0000000000000000000032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShadowVoiceIOS;
+			packageProductDependencies = (
+				AA0000000000000000000082 /* ShadowVoiceClientCore */,
+			);
+			productName = ShadowVoiceIOS;
+			productReference = AA0000000000000000000018 /* ShadowVoiceIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0000000000000000000051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					AA0000000000000000000041 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = AA0000000000000000000062 /* Build configuration list for PBXProject "ShadowVoiceIOS" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA0000000000000000000021;
+			packageReferences = (
+				AA0000000000000000000081 /* XCLocalSwiftPackageReference "../ShadowVoiceClientCore" */,
+			);
+			productRefGroup = AA0000000000000000000023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0000000000000000000041 /* ShadowVoiceIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0000000000000000000032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000000000000000000006 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0000000000000000000033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000000000000000000003 /* AnalyzeViewModel.swift in Sources */,
+				AA0000000000000000000005 /* AudioRecorderController.swift in Sources */,
+				AA0000000000000000000002 /* ContentView.swift in Sources */,
+				AA0000000000000000000004 /* ShadowVoiceAPIClient.swift in Sources */,
+				AA0000000000000000000001 /* ShadowVoiceIOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000000000000000000071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ShadowVoiceIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.tanzhengzheng.shadowvoiceios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ShadowVoiceIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.tanzhengzheng.shadowvoiceios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA0000000000000000000073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0000000000000000000061 /* Build configuration list for PBXNativeTarget "ShadowVoiceIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000071 /* Debug */,
+				AA0000000000000000000072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0000000000000000000062 /* Build configuration list for PBXProject "ShadowVoiceIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000073 /* Debug */,
+				AA0000000000000000000074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		AA0000000000000000000081 /* XCLocalSwiftPackageReference "../ShadowVoiceClientCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../ShadowVoiceClientCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA0000000000000000000082 /* ShadowVoiceClientCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA0000000000000000000081 /* XCLocalSwiftPackageReference "../ShadowVoiceClientCore" */;
+			productName = ShadowVoiceClientCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AA0000000000000000000051 /* Project object */;
+}
